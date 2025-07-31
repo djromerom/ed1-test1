@@ -6,5 +6,6 @@ def fibonacci(n):
         for i in range (2,n):
             data.append(data[i-1] + data[i-2])
     return data[n-1]
+numero = int(input("ingrese el numero fibonacci que desea saber"))
 
-print(fibonacci(8))
+print(fibonacci(numero))
